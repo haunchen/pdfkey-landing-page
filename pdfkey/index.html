@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFKey - 自動解密 PDF 開啟工具 | 安全、快速、離線</title>
+    <link rel="icon" href="images/icon.png">
+    <meta name="description"
+        content="PDFKey 是一個專為自動解密和開啟加密 PDF 檔案設計的 App。安全儲存密碼，自動嘗試解密，完全離線運作，保障您的隱私安全。支援 iOS 與 Android。">
+    <meta name="keywords" content="PDF, 解密, 密碼管理, PDF開啟, 加密PDF, 離線工具, iOS, Android, Flutter">
+    <meta name="author" content="PDFKey Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.frankchen.tw/pdfkey/">
+    <meta property="og:title" content="PDFKey - 自動解密 PDF 開啟工具">
+    <meta property="og:description" content="安全儲存密碼，一鍵自動解密，完全離線運作。解決您每次打開薪資單、帳單都要輸入密碼的煩惱。">
+    <meta property="og:image" content="assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.frankchen.tw/pdfkey/">
+    <meta property="twitter:title" content="PDFKey - 自動解密 PDF 開啟工具">
+    <meta property="twitter:description" content="安全儲存密碼，一鍵自動解密，完全離線運作。解決您每次打開薪資單、帳單都要輸入密碼的煩惱。">
+    <meta property="twitter:image" content="assets/og-image.jpg">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "PDFKey",
+      "operatingSystem": "iOS, Android",
+      "applicationCategory": "UtilitiesApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TWD"
+      },
+      "description": "PDFKey 是一個專為自動解密和開啟加密 PDF 檔案設計的 App。安全儲存密碼，自動嘗試解密，完全離線運作。",
+      "featureList": "自動解密 PDF, 密碼安全儲存, 生物辨識保護, 完全離線運作"
+    }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">PDFKey</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#features">功能特色</a></li>
+                    <li><a href="#use-cases">使用場景</a></li>
+                    <li><a href="#download" class="btn btn-primary nav-btn">立即下載</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>自動解密 PDF<br>開啟檔案不再繁瑣</h1>
+                    <p class="hero-subtitle">安全儲存您的 PDF 密碼，開啟檔案時自動嘗試解密。<br>完全離線運作，資料絕不外洩。</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="store-badge coming-soon">
+                            <img src="images/app-store-badge.webp" alt="Download on the App Store">
+                        </a>
+                        <a href="#" class="store-badge coming-soon">
+                            <img src="images/google-play-badge.png" alt="Get it on Google Play">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder for App Screenshot -->
+                    <div class="app-mockup">
+                        <div class="mockup-screen">
+                            <div class="carousel-container">
+                                <img src="images/pdfkey-1-homepage.jpg" alt="PDFKey Homepage"
+                                    class="carousel-slide active">
+                                <img src="images/pdfkey-2-password.jpg" alt="PDFKey Password Management"
+                                    class="carousel-slide">
+                                <img src="images/pdfkey-3-history.jpg" alt="PDFKey History" class="carousel-slide">
+                                <img src="images/pdfkey-4-settings.jpg" alt="PDFKey Settings" class="carousel-slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">核心功能</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔐</div>
+                        <h3>密碼安全管理</h3>
+                        <p>所有密碼加密儲存於裝置本地，支援搜尋與排序，輕鬆管理您的所有文件密碼。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡️</div>
+                        <h3>自動解密開啟</h3>
+                        <p>開啟 PDF 時自動偵測加密狀態，並嘗試使用儲存的密碼解密，省去重複輸入的麻煩。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>隱私絕對安全</h3>
+                        <p>完全離線運作，不收集個人資訊，不傳送資料到外部伺服器。您的資料只屬於您。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👆</div>
+                        <h3>生物辨識保護</h3>
+                        <p>支援 Face ID、Touch ID 與指紋辨識，保護您的密碼庫與敏感操作。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="use-cases" class="use-cases">
+            <div class="container">
+                <h2 class="section-title">使用場景</h2>
+                <div class="use-cases-grid">
+                    <div class="use-case-item">
+                        <div class="use-case-content">
+                            <h3>每月薪資單</h3>
+                            <p>每個月收到加密的薪資單 PDF，總是忘記密碼？PDFKey 幫您記住並自動開啟。</p>
+                        </div>
+                    </div>
+                    <div class="use-case-item">
+                        <div class="use-case-content">
+                            <h3>銀行信用卡帳單</h3>
+                            <p>多張信用卡帳單密碼都不同？統一管理在 PDFKey，一鍵查看帳單明細。</p>
+                        </div>
+                    </div>
+                    <div class="use-case-item">
+                        <div class="use-case-content">
+                            <h3>保險單據與合約</h3>
+                            <p>重要的保險單據通常都有加密保護，使用 PDFKey 安全儲存密碼，隨時查閱。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="cta">
+            <div class="container">
+                <h2>立即體驗更便捷的 PDF 閱讀方式</h2>
+                <p>告別繁瑣的密碼輸入，擁抱安全快速的自動解密體驗。</p>
+                <div class="hero-buttons">
+                    <a href="#" class="store-badge coming-soon">
+                        <img src="images/app-store-badge.webp" alt="Download on the App Store">
+                    </a>
+                    <a href="#" class="store-badge coming-soon">
+                        <img src="images/google-play-badge.png" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">PDFKey</div>
+            <div class="footer-links">
+                <a href="privacy.html">隱私權政策</a>
+                <a href="terms.html">使用條款</a>
+                <a href="mailto:qwer4488999@gmail.com">聯絡我們</a>
+            </div>
+            <div class="footer-copyright">
+                Copyright &copy; 2025 PDFKey. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
