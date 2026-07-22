@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 # Configuration
-BASE_URL = "https://www.frankchen.tw/pdfkey/"
+BASE_URL = "https://pdfkey.frankchen.tw/"
 SOURCE_DIR = "pdfkey"
 OUTPUT_FILE = os.path.join(SOURCE_DIR, "sitemap.xml")
 
